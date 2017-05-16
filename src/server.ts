@@ -9,10 +9,10 @@ if (process.argv.length === 3) {
         let mode = process.argv[2];
 
         if (mode === 'click') {
-            let clicker = new Clicker(config.position.x, config.position.y);
+            let clicker = new Clicker(config.position.x, config.position.y, config.position.offset);
             clicker.loopClick(config.interval, false);
         } else if (mode === 'dblClick') {
-            let clicker = new Clicker(config.position.x, config.position.y);
+            let clicker = new Clicker(config.position.x, config.position.y, config.position.offset);
             clicker.loopClick(config.interval, true, config.delay);
         } else if (mode === 'coords') {
             let mouse = robot.getMousePos();

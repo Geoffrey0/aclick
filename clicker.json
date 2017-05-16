@@ -1,8 +1,15 @@
 {
   "position": {
-    "x": 113,
-    "y": 373
+    "x": 2235,
+    "y": 543,
+    "offset" : 5
   },
-  "interval": 10000,
-  "delay": 300
+  "interval": {
+    "value" : 21000,
+    "random" : 1000
+  },
+  "delay": {
+    "value" : 1700,
+    "random" : 200
+  }
 }
