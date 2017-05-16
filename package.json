@@ -1,0 +1,19 @@
+{
+  "name": "autoclicker",
+  "version": "1.0.0",
+  "description": "Node js autoclicker",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geoffrey Beertens",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.4.7",
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18"
+  }
+}
