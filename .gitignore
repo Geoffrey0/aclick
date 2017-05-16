@@ -69,3 +69,4 @@ fabric.properties
 #
 /dist/
 /node_modules/
+.idea/typescript-compiler.xml
